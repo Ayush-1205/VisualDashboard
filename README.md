@@ -8,6 +8,27 @@ Use the** datatosql.py **python script to load data from jsondata.json into the 
 Do change in the python script according to your database name and password
 
 **Step 3:** Set Up Django Backend
+In Project's Settings.py add database 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'project',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+   
+}
+
+in installed apps add  **'corsheaders'**
+
+in middleware add** 'corsheaders.middleware.CorsMiddleware',
+     'django.middleware.common.CommonMiddleware',**
+
+**CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',  # React app URL
+]**
 
 **Step4:** For frontend create Home.js which gives the following output
 ![image](https://github.com/Ayush-1205/Dashboard/assets/101936254/87e975a6-a741-4c86-8d85-9491489b00b0)
