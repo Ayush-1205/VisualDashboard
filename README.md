@@ -31,11 +31,14 @@ in middleware add** 'corsheaders.middleware.CorsMiddleware',
 ]**
 
 **Step4:** For frontend create Home.js which gives the following output
-![image](https://github.com/Ayush-1205/Dashboard/assets/101936254/87e975a6-a741-4c86-8d85-9491489b00b0)
+![Screenshot 2024-07-06 171445](https://github.com/Ayush-1205/VisualDashboard/assets/101936254/40aab9ee-f0f1-4c59-9c53-089df2a87b92)
+
 
 **Step5:** Make all the bargraphs and piecharts and the remaining pages which will look like this:
-![image](https://github.com/Ayush-1205/Dashboard/assets/101936254/6fd4d17d-526c-4ae7-bd50-9eb5eae40f9a)
-![image](https://github.com/Ayush-1205/Dashboard/assets/101936254/b55d4f85-0fb1-4738-b6eb-0c662a0e5a01)
+![Screenshot 2024-07-06 172410](https://github.com/Ayush-1205/VisualDashboard/assets/101936254/77dc257e-c3a2-453b-9aeb-f9bc5ccc5670)
+
+
+![Screenshot 2024-07-06 172654](https://github.com/Ayush-1205/VisualDashboard/assets/101936254/e3fa3013-6fe2-44c6-81a7-a82f40cac9c6)
 
 Home will take you to all the Pages having their own Bargraphs and Piecharts also the data is coming form the Backend Api's ( http://127.0.0.1:8000/api/data).
 **Assign** is the **virtual environment** which contains all the libraries and their version required to run this project.
